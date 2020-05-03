@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51b46d"
+    android:orientation="vertical"
+    android:padding="50sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="আপনি জানেন কি?"
+        android:textColor="#80FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/factTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="২৪ ঘণ্টায় ছেলেরা গড়পড়তা ২০০০
+        শব্দ এবং মেয়েরা গড়পড়তা ৫০০০ শব্দ
+        ব্যাবহার করে থাকে!!"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/showFactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="আরেকটি মজাদার তথ্য জানাতে চান?"
+        android:textColor="#51b46d"/>
+
+</LinearLayout>
